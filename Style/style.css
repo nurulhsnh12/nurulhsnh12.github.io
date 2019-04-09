@@ -1,0 +1,274 @@
+/*star body */
+body {
+    background-color: rgb(216, 112, 193);
+    color: rgba(255, 255, 255, 0.671);
+    color: blueviolet;
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+
+}
+/*end body*/
+
+/*star menu sekunder*/
+.menu-sekunder {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two {
+    float: left;
+
+}
+.menu-sekunder-one {
+    width: 45%;
+}
+.menu-sekunder-two {
+    width: 50%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+
+
+ /*start debug*/
+    .bg-blue {
+      background-color: bisque;
+
+  }
+    .bg-red {
+        background-color: red;
+
+  }
+    /*end debug*/
+
+    /*start container*/
+    .container {
+        margin:10px auto;
+        overflow: auto;
+        width:90%;
+
+    }
+    /*end container*/
+
+    /*star logo*/
+    .logo {
+        text-decoration: none;
+
+    }
+    a:hover,
+    a:active {
+      color: #000000;
+      text-decoration:underline;
+
+    }
+    /* end achor/ hyperlink */
+    
+.menu-primer ul{
+    background-color:rgb(195, 0, 255);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgb(177, 90, 158),
+        0 6px 10px 0 rgb(177, 90, 158),
+        0 1px 18px 0 rgb(177, 90, 158);
+}
+.menu-primer li{
+        border-right: 1px solid #ff77ff;
+        display: inline-block;
+        margin: 0 -4x;
+}
+
+.menu-primer a{
+    color:  #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover{
+    background-color: #ff77ff;
+    color: #9b1b9b;
+    text-decoration: none;
+
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* end menu primer*/
+
+/*star heading*/
+h1, h2, h3, h4, h5, h6{
+    font: size 24px;
+    letter: spacing 1px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 13px
+}
+h4 {
+    font-size: 16px
+}
+h5{
+    font-size: 14px
+}
+h6 {
+    font-size: 13px
+}
+
+/*start jumbroton*/
+.jumbroton {
+    background-color: #d1d5da;
+    border : 1px solid #d1d5da;
+    border-radius:4px;
+    padding: 20px;
+}
+.jumbroton h1{
+    font-size: 32px;
+    padding:0 20px;
+}
+.jumbroton h4{
+    font-size: 20px;
+    padding:0 20px;
+}
+/*end jumbroton*/
+
+/*star main*/
+.main-home-one {
+    float: left;
+    width: 49.5%
+}
+.main-home-two {
+    float: right;
+    width: 49.5%
+}
+/* end main */
+
+/*star box*/
+.box-heading{
+    background-color: #ffffff;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h3{
+    font-size: 14px;
+    margin: 0;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 190px;
+}
+
+.box-isi{
+     background-color: #ffffff;
+     border: 1px solid #eaecef;
+     border-top :0 ;
+     margin: 0;
+     padding: 10px 20px;
+}
+/*end box*/
+
+ /*star menu sekunder*/
+ .menu-sekunder {
+     font-size: 14px;
+     margin: 0 auto;
+     text-transform: uppercase;
+ }
+ .menu-sekunder ul {
+     padding: 0;
+ }
+ .menu-sekunder li {
+     list-style: disc;
+ }
+
+ .menu-sekunder li a,
+ .menu-sekunder p {
+     font-size: 15px
+ }
+ .menu-sekunder-one,
+ .menu-sekunder-two {
+     float: left;
+
+ }
+ .menu-sekunder-one {
+     width: 40%;
+ }
+ .menu-sekunder-two {
+     width: 30%;
+ }
+ .menu-sekunder-three {
+     width: 30%;
+ }
+ .menu-sekunder li img {
+     vertical-align: middle;
+ }
+
+/* star menu sekunder*/
+.menu-sekunder {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+    text-transform: none;
+}
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{
+    padding: 0;
+}
+.menu-sekunder li{
+    list-style-type: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one{
+    width: 40%;
+}
+.menu-sekunder-two
+.menu-sekunder-three{
+    width: 30%
+}
+.menu-sekunder li img{
+    vertical-align: midle;
+}
+
+/*end menu sekunder*
+
+
